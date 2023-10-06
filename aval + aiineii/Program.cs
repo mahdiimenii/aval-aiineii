@@ -18,7 +18,7 @@ for (int i = a1; i <= a2; i++)
     {
         Console.WriteLine("adade aiineii :" + "" + i);
     }
-    for (int j = 2; j < i; j++)
+    for (int j = 2; j <= i; j++)
     {
         if (i != j && i % j == 0)
         {
